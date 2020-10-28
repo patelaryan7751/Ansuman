@@ -168,9 +168,12 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="https://script.google.com/macros/s/AKfycbwTaQSNHNuzux-7C5LHYSuGEIxpQA1GK3u4logAeLhdOZ_uNQye/exec" class="contact__form" >
-                        <input type="name" placeholder="Name" class="contact__input">
-                        <input type="email" placeholder="Email" class="contact__input">
+                    <form action="https://script.google.com/macros/s/AKfycbwTaQSNHNuzux-7C5LHYSuGEIxpQA1GK3u4logAeLhdOZ_uNQye/exec" class="contact__form" data-email="tripathy77ansu@gmail.com" >
+                        <label for="name">Name: </label>
+                        <input type="name" name="name" placeholder="Name" class="contact__input">
+                        <label for="email"><em>Your</em> Email Address:</label>
+                        <input type="email" name="email" placeholder="Email" class="contact__input">
+                        <label for="message" name="message" >Message: </label>
                         <textarea name="message" id="" placeholder="Your Message" cols="0" rows="10" class="contact__input"></textarea>
                         <input type="button" value="Enter" class="contact__button button">
                     </form>
